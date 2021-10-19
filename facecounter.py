@@ -20,7 +20,8 @@ while True:
     # Capture frame-by-frame
     ret, frame = cap.read()
     #frame = cv2.flip(frame, 1)
- 
+
+
     # RGB to grayscale
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = detector(gray)

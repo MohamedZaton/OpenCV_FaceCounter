@@ -9,7 +9,7 @@ import dlib
 
 # cap = cv2.VideoCapture('floor_08.mp4')
 cap = cv2.VideoCapture('Water Dance_720p.mp4') 
- 
+cap = cv2.resize(cap,)
 # Detect the coordinates
 detector = dlib.get_frontal_face_detector()
 img=0
@@ -20,7 +20,6 @@ while True:
     # Capture frame-by-frame
     ret, frame = cap.read()
     #frame = cv2.flip(frame, 1)
-
 
     # RGB to grayscale
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -40,7 +39,7 @@ while True:
         i = i+1
  
         # Display the box and faces
-        cv2.putText(frame, 'Face Number. '+str(img+i), (x-10, y-10),
+        cv2.putText(frame, 'Face Number.'+str(img+i), (x-10, y-10),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
         print(face, i)
          # if video is still left continue creating images

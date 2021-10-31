@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dde4b8f7-551b-4c4d-940d-8bed02cf7e54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/face_counter.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haarcascade_eye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/human_counter.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/face1_face.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/face1_face.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/face2_face.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/face3_face.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/face4_face.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/facecounter.py" beforeDir="false" afterPath="$PROJECT_DIR$/facecounter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634655669628</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add last update send team picture as mail">
+      <created>1635329336891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635329336891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;try agin &quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;try agin &quot;" />
+    <MESSAGE value="add last update send team picture as mail" />
+    <option name="LAST_COMMIT_MESSAGE" value="add last update send team picture as mail" />
   </component>
 </project>
